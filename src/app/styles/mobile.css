@@ -1,6 +1,6 @@
 header {
  
-    background: url('/img/carousel-1.jpg') top right no-repeat;
+    background: url('/img/carousel-1.webp') top right no-repeat;
     background-attachment: fixed ;
     text-align: center;
     justify-content: center;
@@ -31,3 +31,6 @@ header {
 }
 
 
+button {
+    border: none;
+}
