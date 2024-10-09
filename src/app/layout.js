@@ -16,7 +16,10 @@ export default function RootLayout({ children }) {
           content="จำหน่ายโทรศัพท์มือถือทางออนไลน์ที่บริการดีที่สุด โทรศัพท์มือถือยี่ห้อ PG-V9"
         />
         <meta name="author" content="Shopสั่งซื้อ PG-V9" />
-        <meta name="keywords" content="โทรศัพท์ PG, PG V9, โทรศัพท์PG,  PGเว็บตรง100%, PGเว็บตรง, โทรศัพท์มือถือPGเว็บตรง" />
+        <meta
+          name="keywords"
+          content="โทรศัพท์ PG, PG V9, โทรศัพท์PG, PGเว็บตรง100%, PGเว็บตรง, โทรศัพท์มือถือPGเว็บตรง"
+        />
         <meta property="og:title" content="Shopสั่งซื้อโทรศัพท์ PG-V9" />
         <meta
           property="og:description"
@@ -26,8 +29,21 @@ export default function RootLayout({ children }) {
           property="og:image"
           content="https://shop-phone-pg.ca7mobile.com/img/1.webp"
         />
-        <meta property="og:url" content="https://shop-phone-pg.ca7mobile.com" />
+        <meta
+          property="og:url"
+          content="https://shop-phone-pg.ca7mobile.com"
+        />
         <meta property="og:type" content="website" />
+        <Script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=AW-16734378066"
+        />
+        <Script id="google-analytics">
+          {`window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'AW-16734378066');`}
+        </Script>
       </head>
       <body className={inter.className}>{children}</body>
       <Script
