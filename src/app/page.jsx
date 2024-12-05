@@ -4,7 +4,7 @@ import React, { useEffect, useState } from 'react';
 import { useRouter } from 'next/navigation';
 
 
-const imgs = ['1.jpg','1.gif','2.jpg','2.gif','3.jpg','3.gif','4.jpg','5.jpg','6.jpg'];
+const imgs = ['1.webp','1.gif','2.webp','2.gif','3.webp','3.gif','4.webp','5.webp','6.webp'];
 
 
 
